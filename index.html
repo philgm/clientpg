@@ -1,10 +1,13 @@
 <!doctype html>
 <html lang="en" ng-app>
   <head>
-    <title>Chat Example</title>
+	<title>Chat des Marchaux</title>
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="/css/bootstrap.min.css">
     <link rel="stylesheet" href="/css/bootstrap-responsive.min.css">
+	
+	<script src="phonegap.js" type="text/javascript"></script>
     <style>
       body {
         padding-top: 60px;
@@ -92,6 +95,10 @@
         </div>
       </div>
     </div>
+	<script src="js/index.js"></script>
+	<script>
+		app.initialize();
+	</script>
     <script src="/socket.io/socket.io.js"></script>
     <script src="/js/jquery.min.js"></script>
     <script src="/js/bootstrap.min.js"></script>
